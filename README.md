@@ -1,6 +1,7 @@
-1- Eu escolhi a opção A para fazer o teste.
-2- Fiz o diferencial de criar um botão play/pause para a animação.
-3- Ao tentar abrir o arquivo index.html é provavel que aconteça o mecanismo de segurança CORS. Isso acontece porque, por padrão, navegadores como Firefox e Chrome bloqueiam requisições de recursos (como imagens) através do protocolo file:// por razões de segurança.
+    1- Eu escolhi a opção A para fazer o teste.
+    2- Fiz o diferencial de criar um botão play/pause para a animação.
+    3- Ao tentar abrir o arquivo index.html é provavel que aconteça o mecanismo de segurança CORS. Isso acontece porque, por padrão, navegadores como Firefox e Chrome bloqueiam requisições de recursos (como imagens) através do protocolo file:// por razões de segurança.
+   
     Soluções:
     
     OPÇÃO A:
