@@ -1,25 +1,50 @@
-    1- Eu escolhi a opção A para fazer o teste.
-    2- Fiz o diferencial de criar um botão play/pause para a animação.
-    3- Ao tentar abrir o arquivo index.html é provavel que aconteça o mecanismo de segurança CORS. Isso acontece porque, por padrão, navegadores como Firefox e Chrome bloqueiam requisições de recursos (como imagens) através do protocolo file:// por razões de segurança.
-   
-    Soluções:
-    
-    OPÇÃO A:
-    1- Abrir o terminal na pasta onde está o index.html
-        Você pode abrir a pasta normalmente
-        Clicar com o botão direito do mouse
-        Clicar em abrir terminal
-    2- Abrir um servidor local digitando no terminal os comandos abaixo.
-    macOS/Linux: python3 -m http.server 8000
-    windows: python -m http.server 8000
-    
-    E então acesse no navegador http://localhost:8000
+# Detalhes da Implementação & Como Executar
 
-    OPÇÃO B:
-    1- Abrir o terminal na pasta pack-teste-idle-animation
-        Você pode abrir a pasta normalmente
-        Clicar com o botão direito do mouse
-        Clicar em abrir terminal
-    2- No terminal digital lime test html5 e então o projeto vai abrir no navegador
-        
-        
+## Escolha do Teste & Diferenciais
+* **Opção Escolhida:** Opção A.
+* **Diferencial Implementado:** Criado um botão de **Play/Pause** para controle da animação.
+
+---
+
+## Observação Importante sobre o CORS
+Ao tentar abrir diretamente o arquivo `index.html` no navegador, é provável que ocorra um erro de **CORS (Cross-Origin Resource Sharing)**.
+
+> **Por que isso acontece?**  
+> Por padrão, navegadores como **Chrome** e **Firefox** bloqueiam a requisição de recursos locais (como imagens e assets) via protocolo `file://` por razões de segurança.
+
+---
+
+## Como Executar o Projeto
+
+Escolha uma das opções abaixo para rodar o projeto localmente:
+
+###  Opção A: Servidor Local via Python
+
+1. **Abra o terminal na pasta do projeto:**
+   * Navegue até a pasta onde está o arquivo `index.html`.
+   * Clique com o **botão direito** em um espaço vazio da pasta e selecione **"Abrir no Terminal"** (ou *Open in Terminal*).
+
+2. **Inicie o servidor HTTP:**
+   * **macOS / Linux:**
+     ```bash
+     python3 -m http.server 8000
+     ```
+   * **Windows:**
+     ```cmd
+     python -m http.server 8000
+     ```
+
+3. **Acesse no navegador:**
+   * Abra o navegador e acesse: [http://localhost:8000](http://localhost:8000)
+
+---
+
+###  Opção B: Via Haxe / Lime (HTML5)
+
+1. **Abra o terminal na pasta do projeto:**
+   * Navegue até a pasta `pack-teste-idle-animation`.
+   * Clique com o **botão direito** e selecione **"Abrir no Terminal"**.
+
+2. **Execute o comando de teste:**
+   ```bash
+   lime test html5
